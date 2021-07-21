@@ -208,15 +208,16 @@ You can run the following command to get the URI for your deployment:
 
 ### Step 3 : Feast Installation
 
-![](highlevel.png)
-
 <img src="https://raw.githubusercontent.com/feast-dev/feast/v0.9-branch/docs/assets/feast_logo.png" width="425"/> 
+
+
 
 
 Feast (Feature Store) is an operational data system for managing and serving machine learning features to models in production.[Install link](https://docs.feast.dev/v/v0.9-branch/getting-started/install-feast/kubernetes-with-helm)
 
 Check your deployment Once the Kubeflow kubernetes cluster.
 
+![](highlevel.png)
 Follow these steps to verify the deployment:
 
 When the deployment finishes, check the resources installed in the namespace kubeflow in your new cluster. To do this from the command line, first set your kubectl credentials to point to the new cluster:
