@@ -218,6 +218,7 @@ Feast (Feature Store) is an operational data system for managing and serving mac
 Check your deployment Once the Kubeflow kubernetes cluster.
 
 ![](highlevel.png)
+
 Follow these steps to verify the deployment:
 
 When the deployment finishes, check the resources installed in the namespace kubeflow in your new cluster. To do this from the command line, first set your kubectl credentials to point to the new cluster:
@@ -254,10 +255,17 @@ gcloud dataproc clusters create dataproc --image-version='2.0.0-RC11-debian10' -
 ```
 
 **Install Grafana Prometheus**
+
+![](grafana.png)
+
 ```bash
 helm install prometheus stable/prometheus
 helm install grafana stable/grafana
 ``` 
+Launch grafana
 
+```bash
+kubectl port-forward --namespace knative-monitoring $(kubectl get pod --namespace knative-monitoring --selector="app=grafana" --output jsonpath='{.items[0].metadata.name}') 8080:3000
+```
 
 
