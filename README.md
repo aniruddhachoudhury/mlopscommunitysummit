@@ -19,8 +19,12 @@ Building ML Blocks with Kubeflow Orchestration with Feature Store.
 
 
 ## Feature Store with Kubeflow in Google Cloud Platform
-
 ---
+
+
+
+
+![](arc.png)
 
 ##  Setting up Kubeflow with Feast on GCP
 
