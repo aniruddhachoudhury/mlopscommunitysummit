@@ -208,7 +208,7 @@ You can run the following command to get the URI for your deployment:
 
 ### Step 3 : Feast Installation
 
-
+![](highlevel.png)
 
 <img src="https://raw.githubusercontent.com/feast-dev/feast/v0.9-branch/docs/assets/feast_logo.png" width="425"/> 
 
