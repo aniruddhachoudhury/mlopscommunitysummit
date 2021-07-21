@@ -1,6 +1,7 @@
-# mlopscommunitysummit
+# Mlops community Meetup
 Building ML Blocks with Kubeflow Orchestration with Feature Store.
 ![](image.png)
+
 
 ##
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aniruddha-choudhury-5a34b511b/)
